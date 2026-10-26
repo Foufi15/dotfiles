@@ -1,0 +1,9 @@
+[[mgr.prepend_keymap]]
+on   = "<Enter>"
+run  = "plugin nvim-open window"
+desc = "Ouvrir dans nvim (nouvelle fenêtre tmux si tmux)"
+
+[[mgr.prepend_keymap]]
+on   = "o"
+run  = "plugin nvim-open popup"
+desc = "Ouvrir dans nvim (popup tmux si tmux)"

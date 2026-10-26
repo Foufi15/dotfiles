@@ -1,0 +1,11 @@
+[mgr]
+# Proportions colonnes : parent / courant / preview
+ratio = [1, 3, 4]
+
+[preview]
+# Limites volontairement grandes : les images remplissent tout
+# l'espace restant du panneau de preview au lieu d'être plafonnées à 600x900.
+max_width  = 4000
+max_height = 4000
+image_filter  = "lanczos3"
+image_quality = 90
